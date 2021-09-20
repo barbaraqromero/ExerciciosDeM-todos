@@ -3,6 +3,6 @@ package br.com.zup;
 public class Main {
 
   public static void main(String[] args) {
-    // write your code here
+    Carro jipe = new Carro("wrangler", 2000, "Jeep", "vermelho", 370000);
   }
 }
