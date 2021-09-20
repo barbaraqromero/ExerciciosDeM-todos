@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.exercicio1;
 
 public class Carro {
   String nome;
@@ -18,6 +18,13 @@ public class Carro {
     this.valor = valor;
   }
 
+  public void mostrarCarro(){
+    System.out.println("O modelo do carro é: " + nome);
+    System.out.println("O peso do carro é: " + peso);
+    System.out.println("O fabricante do carro é: " + fabricante);
+    System.out.println("O valor do carro é: " + valor);
+  }
+
   public double valorDoDesconto() {
     double desconto = valor * 0.5;
     return desconto;
@@ -28,7 +35,7 @@ public class Carro {
 
   }
 
-  public void pintar(String novaCor){
+  public void pintar(String novaCor) {
     cor = novaCor;
   }
 }
