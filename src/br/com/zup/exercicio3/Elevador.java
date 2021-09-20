@@ -43,7 +43,7 @@ public class Elevador {
   }
 
   public void desce(int descerAndar) {
-    if (descerAndar > 0 & descerAndar <= 12) {
+    if (descerAndar > 0 & descerAndar < 12) {
       andarAtual = descerAndar;
     } else {
       System.out.println("NÃO HÁ PARA ONDE DESCER ALÉM DO 0!");
