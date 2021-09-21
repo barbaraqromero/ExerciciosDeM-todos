@@ -24,8 +24,7 @@ public class Main {
 
     //Aplicando os métodos
     travesseiro.mudarValorLados(15, 12);
-    System.out.println(travesseiro.base);
-    System.out.println(travesseiro.altura);
+    travesseiro.retornarValores();
 
   }
 }
