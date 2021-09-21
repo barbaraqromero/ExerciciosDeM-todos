@@ -12,4 +12,9 @@ public class Retangulo {
     this.base = base;
     this.altura = altura;
   }
+
+  public void mudarValorLados(double novaBase, double novaAltura){
+    base = novaBase;
+    altura = novaAltura;
+  }
 }
