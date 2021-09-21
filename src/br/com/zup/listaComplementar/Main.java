@@ -32,15 +32,17 @@ public class Main {
     System.out.println("---------------------------");
 
     //Instanciando classe Pessoa
-    Pessoa pessoa = new Pessoa("Barbara", 32, 67, 1.62);
+    Pessoa pessoa = new Pessoa("Barbara", 19, 67, 1.62);
 
     //Aplicando métodos da Pessoa
-    pessoa.envelhecer(4);
+    pessoa.envelhecer(1);
     System.out.println("Sua nova idade é: " + pessoa.novaIdade);
     pessoa.engordar(5);
     System.out.println("Seu novo peso é: " + pessoa.novoPeso);
     pessoa.emagrecer(8);
     System.out.println("Seu novo peso é: " + pessoa.novoPeso);
+    pessoa.crescer(0.1);
+    System.out.println("Sua nova altura é: " + pessoa.novaAltura);
 
   }
 }
