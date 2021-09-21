@@ -31,6 +31,9 @@ public class Main {
     travesseiro.calcularPerimetro();
     System.out.println("---------------------------");
 
+    //Instanciando classe Pessoa
+    Pessoa pessoa = new Pessoa("Barbara", 32, 67, 1.62);
+
 
   }
 }
