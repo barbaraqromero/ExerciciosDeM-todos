@@ -12,7 +12,7 @@ public class Main {
     //Instanciando a classe Quadrado
     Quadrado cubo = new Quadrado(120);
 
-    cubo.mudarValorDoLado(150);
+    cubo.mudarValorDoLado(290);
     System.out.println(cubo.tamanhoDoLado);
 
   }
