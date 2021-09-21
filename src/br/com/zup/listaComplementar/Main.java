@@ -19,5 +19,8 @@ public class Main {
     cubo.calcularArea();
     System.out.println(cubo.area);
 
+    //Instanciando classe Retângulo
+    Retangulo travesseiro = new Retangulo(10, 8);
+
   }
 }
