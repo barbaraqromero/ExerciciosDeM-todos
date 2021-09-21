@@ -17,8 +17,8 @@ public class Quadrado {
     tamanhoDoLado = novoValorDoLado;
   }
 
-  public void retornarValorDoLado() {
-    System.out.println(tamanhoDoLado);
+  public double retornarValorDoLado() {
+    return tamanhoDoLado;
   }
 
   public void calcularArea() {

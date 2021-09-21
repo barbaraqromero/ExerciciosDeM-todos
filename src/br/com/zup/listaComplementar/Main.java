@@ -15,6 +15,7 @@ public class Main {
     //Aplicando os métodos
     cubo.mudarValorDoLado(6);
     cubo.retornarValorDoLado();
+    System.out.println(cubo.tamanhoDoLado);
     cubo.calcularArea();
     System.out.println(cubo.area);
 
