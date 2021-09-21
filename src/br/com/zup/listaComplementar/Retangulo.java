@@ -3,6 +3,8 @@ package br.com.zup.listaComplementar;
 public class Retangulo {
   double base;
   double altura;
+  double area;
+  double perimetro;
 
   public Retangulo() {
 
@@ -19,9 +21,20 @@ public class Retangulo {
   }
 
   public void retornarValores() {
-    System.out.println(base);
-    System.out.println(altura);
+    System.out.println("A base é: " + base);
+    System.out.println("A altura é: " + altura);
 
+  }
+
+  public void calcularArea(){
+    area = base * altura;
+    System.out.println("A área é: " + area);
+
+  }
+
+  public void calcularPerimetro(){
+    perimetro = (base * 2) + (altura * 2);
+    System.out.println("O perímetro é: " + perimetro);
 
   }
 }

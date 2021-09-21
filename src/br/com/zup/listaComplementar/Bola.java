@@ -27,7 +27,7 @@ public class Bola {
   }
 
   public void mostraCor() {
-    System.out.println(cor);
+    System.out.println("A cor atual da bola é: " + cor);
 
   }
 }

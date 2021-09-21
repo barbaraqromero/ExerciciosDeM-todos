@@ -19,6 +19,7 @@ public class Quadrado {
 
   public double retornarValorDoLado() {
     return tamanhoDoLado;
+
   }
 
   public void calcularArea() {
