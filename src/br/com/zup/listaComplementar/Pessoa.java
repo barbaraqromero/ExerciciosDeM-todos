@@ -6,6 +6,7 @@ public class Pessoa {
   double peso;
   double altura;
   int novaIdade;
+  double novoPeso;
 
   public Pessoa(){
 
@@ -20,5 +21,11 @@ public class Pessoa {
 
   public void envelhecer(int envelhecer){
     novaIdade = idade + envelhecer;
+  }
+
+  public void engordar(double engordar){
+    novoPeso = peso + engordar;
+
+
   }
 }

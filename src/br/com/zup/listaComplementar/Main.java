@@ -36,7 +36,9 @@ public class Main {
 
     //Aplicando métodos da Pessoa
     pessoa.envelhecer(4);
-    System.out.println(pessoa.novaIdade);
+    System.out.println("Sua nova idade é: " + pessoa.novaIdade);
+    pessoa.engordar(5);
+    System.out.println("Seu novo peso é: " + pessoa.novoPeso);
 
   }
 }
