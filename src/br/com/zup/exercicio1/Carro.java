@@ -36,6 +36,7 @@ public class Carro {
   }
 
   public void pintar(String novaCor) {
+
     cor = novaCor;
   }
 }
