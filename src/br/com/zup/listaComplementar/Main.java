@@ -10,10 +10,10 @@ public class Main {
     jabulani.mostraCor();
 
     //Instanciando a classe Quadrado
-    Quadrado cubo = new Quadrado(120);
+    Quadrado cubo = new Quadrado(5);
 
-    cubo.mudarValorDoLado(290);
-    System.out.println(cubo.tamanhoDoLado);
+    cubo.mudarValorDoLado(6);
+    cubo.retornarValorDoLado();
 
   }
 }
