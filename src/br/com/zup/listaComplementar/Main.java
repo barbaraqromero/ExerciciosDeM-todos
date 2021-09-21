@@ -34,6 +34,9 @@ public class Main {
     //Instanciando classe Pessoa
     Pessoa pessoa = new Pessoa("Barbara", 32, 67, 1.62);
 
+    //Aplicando métodos da Pessoa
+    pessoa.envelhecer(4);
+    System.out.println(pessoa.novaIdade);
 
   }
 }

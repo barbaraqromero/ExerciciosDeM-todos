@@ -5,6 +5,7 @@ public class Pessoa {
   int idade;
   double peso;
   double altura;
+  int novaIdade;
 
   public Pessoa(){
 
@@ -15,5 +16,9 @@ public class Pessoa {
     this.idade = idade;
     this.peso = peso;
     this.altura = altura;
+  }
+
+  public void envelhecer(int envelhecer){
+    novaIdade = idade + envelhecer;
   }
 }
