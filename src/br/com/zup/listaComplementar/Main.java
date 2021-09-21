@@ -39,6 +39,8 @@ public class Main {
     System.out.println("Sua nova idade é: " + pessoa.novaIdade);
     pessoa.engordar(5);
     System.out.println("Seu novo peso é: " + pessoa.novoPeso);
+    pessoa.emagrecer(8);
+    System.out.println("Seu novo peso é: " + pessoa.novoPeso);
 
   }
 }
