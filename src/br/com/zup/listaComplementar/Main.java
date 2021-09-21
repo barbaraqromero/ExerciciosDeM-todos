@@ -12,8 +12,11 @@ public class Main {
     //Instanciando a classe Quadrado
     Quadrado cubo = new Quadrado(5);
 
+    //Aplicando os métodos
     cubo.mudarValorDoLado(6);
     cubo.retornarValorDoLado();
+    cubo.calcularArea();
+    System.out.println(cubo.area);
 
   }
 }
