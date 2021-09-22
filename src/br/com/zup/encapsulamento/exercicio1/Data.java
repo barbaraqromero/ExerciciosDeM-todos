@@ -1,4 +1,4 @@
-package br.com.zup.encapsulamento;
+package br.com.zup.encapsulamento.exercicio1;
 
 public class Data {
   int dia;

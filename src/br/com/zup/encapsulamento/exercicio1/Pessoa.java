@@ -1,4 +1,6 @@
-package br.com.zup.encapsulamento;
+package br.com.zup.encapsulamento.exercicio1;
+
+import br.com.zup.encapsulamento.exercicio1.Data;
 
 public class Pessoa {
   private String nome;
