@@ -1,9 +1,9 @@
 package br.com.zup.exercicio2;
 
 public class ContaBancaria {
-  String nomeDoCorrentista;
-  int numeroDaConta;
-  double saldo = 0;
+  private String nomeDoCorrentista;
+  private int numeroDaConta;
+  private double saldo = 0;
 
   public ContaBancaria() {
 
@@ -14,23 +14,31 @@ public class ContaBancaria {
     this.numeroDaConta = numeroDaConta;
   }
 
-  public void mostrarDados(){
+  public String getNomeDoCorrentista() {
+    return nomeDoCorrentista;
+  }
+
+  public int getNumeroDaConta() {
+    return numeroDaConta;
+  }
+
+  public double getSaldo() {
+    return saldo;
+  }
+
+  public void mostrarDados() {
     System.out.println("Nome do Titular: " + nomeDoCorrentista);
     System.out.println("Número da Conta: " + numeroDaConta);
     System.out.println("Saldo atual: " + saldo);
   }
 
-  public void saque(double valor){
+  public void saque(double valor) {
 
     saldo = saldo - valor;
   }
 
-  public void deposito(double valor){
+  public void deposito(double valor) {
     saldo = saldo + valor;
   }
-
-  public void extrato(){
-    mostrarDados();
-  }
-
 }
+
