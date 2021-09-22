@@ -1,13 +1,45 @@
 package br.com.zup.exercicio3;
 
 public class Elevador {
-  int andarAtual = 0;
-  int totalDeAndares;
-  int capacidadeDoElevador;
-  int quantidadeDePessoas;
+  private int andarAtual = 0;
+  private int totalDeAndares;
+  private int capacidadeDoElevador;
+  private int quantidadeDePessoas;
 
   public Elevador() {
 
+  }
+
+  public int getAndarAtual() {
+    return andarAtual;
+  }
+
+  public int getTotalDeAndares() {
+    return totalDeAndares;
+  }
+
+  public int getCapacidadeDoElevador() {
+    return capacidadeDoElevador;
+  }
+
+  public int getQuantidadeDePessoas() {
+    return quantidadeDePessoas;
+  }
+
+  public void setAndarAtual(int andarAtual) {
+    this.andarAtual = andarAtual;
+  }
+
+  public void setCapacidadeDoElevador(int capacidadeDoElevador) {
+    this.capacidadeDoElevador = capacidadeDoElevador;
+  }
+
+  public void setQuantidadeDePessoas(int quantidadeDePessoas) {
+    this.quantidadeDePessoas = quantidadeDePessoas;
+  }
+
+  public void setTotalDeAndares(int totalDeAndares) {
+    this.totalDeAndares = totalDeAndares;
   }
 
   public Elevador(int totalDeAndares, int capacidadeDoElevador) {
